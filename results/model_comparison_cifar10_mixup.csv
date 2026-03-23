@@ -1,2 +1,0 @@
-model,accuracy,params_M,epochs,dataset,checkpoint
-ResNet50,74.67,23.520842,60,CIFAR10_full_mixup,checkpoints/ResNet50.pth

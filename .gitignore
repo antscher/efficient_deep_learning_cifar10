@@ -3,4 +3,4 @@ wandb/
 *.csv
 *.png
 *.sh
-checkpoints/
+results/
