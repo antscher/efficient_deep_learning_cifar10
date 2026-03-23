@@ -1,1 +1,0 @@
-{"loss":0.20579395132601414,"_step":11,"epoch":10,"_wandb":{"runtime":1601},"_runtime":1601.822063732,"lr":0,"final_test_acc":93.51,"test_acc":93.51,"_timestamp":1.7722036367212179e+09,"train_acc":93.926}

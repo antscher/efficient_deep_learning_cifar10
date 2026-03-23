@@ -1,0 +1,6 @@
+__pycache__/
+wandb/
+*.csv
+*.png
+*.sh
+checkpoints/
