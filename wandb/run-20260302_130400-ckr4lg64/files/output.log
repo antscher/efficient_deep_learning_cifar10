@@ -1,0 +1,36 @@
+Applying pruning with intermediate ratio 0.10...
+Epoch 2/2 - Loss: 0.3025 - Train Acc: 92.14% - Test Acc: 94.14%
+Epoch 3/2 - Loss: 0.2586 - Train Acc: 92.84% - Test Acc: 94.42%
+Accuracy after pruning with ratio 0.1: 94.42%
+Applying pruning with intermediate ratio 0.20...
+Epoch 2/2 - Loss: 0.2504 - Train Acc: 92.96% - Test Acc: 94.24%
+Epoch 3/2 - Loss: 0.2250 - Train Acc: 93.41% - Test Acc: 94.73%
+Accuracy after pruning with ratio 0.2: 94.73%
+Applying pruning with intermediate ratio 0.30...
+Epoch 2/2 - Loss: 0.2264 - Train Acc: 93.52% - Test Acc: 94.17%
+Epoch 3/2 - Loss: 0.2163 - Train Acc: 93.92% - Test Acc: 94.29%
+Accuracy after pruning with ratio 0.30000000000000004: 94.29%
+Applying pruning with intermediate ratio 0.40...
+Epoch 2/2 - Loss: 0.2167 - Train Acc: 94.05% - Test Acc: 94.42%
+Epoch 3/2 - Loss: 0.1997 - Train Acc: 94.17% - Test Acc: 94.60%
+Accuracy after pruning with ratio 0.4: 94.60%
+Applying pruning with intermediate ratio 0.50...
+Epoch 2/2 - Loss: 0.2045 - Train Acc: 94.23% - Test Acc: 94.67%
+Epoch 3/2 - Loss: 0.1921 - Train Acc: 94.51% - Test Acc: 94.37%
+Accuracy after pruning with ratio 0.5: 94.37%
+Applying pruning with intermediate ratio 0.60...
+Epoch 2/2 - Loss: 0.1982 - Train Acc: 94.19% - Test Acc: 94.26%
+Epoch 3/2 - Loss: 0.1867 - Train Acc: 94.81% - Test Acc: 94.35%
+Accuracy after pruning with ratio 0.6: 94.35%
+Applying pruning with intermediate ratio 0.70...
+Epoch 2/2 - Loss: 0.2047 - Train Acc: 94.30% - Test Acc: 94.40%
+Epoch 3/2 - Loss: 0.1854 - Train Acc: 94.74% - Test Acc: 94.56%
+Accuracy after pruning with ratio 0.7: 94.56%
+Applying pruning with intermediate ratio 0.80...
+Epoch 2/2 - Loss: 0.2323 - Train Acc: 93.70% - Test Acc: 94.20%
+Epoch 3/2 - Loss: 0.2027 - Train Acc: 94.55% - Test Acc: 94.26%
+Accuracy after pruning with ratio 0.7999999999999999: 94.26%
+Applying pruning with intermediate ratio 0.80...
+Epoch 2/2 - Loss: 0.2030 - Train Acc: 94.32% - Test Acc: 94.33%
+Epoch 3/2 - Loss: 0.1895 - Train Acc: 94.56% - Test Acc: 94.42%
+Accuracy after pruning with ratio 0.8: 94.42%

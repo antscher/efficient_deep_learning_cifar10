@@ -1,0 +1,15 @@
+Evaluate prunung before fine-tuning...
+Accuracy before pruning: 90.07%
+Epoch 2/10 - Loss: 0.3621 - Train Acc: 91.29% - Test Acc: 93.92%
+Epoch 2/10 - Loss: 0.2875 - Train Acc: 91.97% - Test Acc: 93.85%
+Epoch 3/10 - Loss: 0.2670 - Train Acc: 92.34% - Test Acc: 94.13%
+Epoch 4/10 - Loss: 0.2578 - Train Acc: 92.92% - Test Acc: 94.23%
+Epoch 5/10 - Loss: 0.2426 - Train Acc: 93.08% - Test Acc: 94.29%
+Epoch 6/10 - Loss: 0.2372 - Train Acc: 93.24% - Test Acc: 94.26%
+Epoch 7/10 - Loss: 0.2297 - Train Acc: 93.37% - Test Acc: 94.46%
+Epoch 8/10 - Loss: 0.2204 - Train Acc: 93.47% - Test Acc: 94.38%
+Epoch 9/10 - Loss: 0.2182 - Train Acc: 93.68% - Test Acc: 94.61%
+Epoch 10/10 - Loss: 0.2162 - Train Acc: 93.76% - Test Acc: 94.48%
+Epoch 11/10 - Loss: 0.2126 - Train Acc: 93.69% - Test Acc: 94.41%
+Removed pruning re-parametrization (mask/weight_orig) from all pruned layers.
+Saved pruned model to checkpoints/ResNet18_pruned_70.pth

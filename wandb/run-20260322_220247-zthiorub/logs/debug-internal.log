@@ -1,0 +1,17 @@
+{"time":"2026-03-22T22:02:47.804836782+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-22T22:02:47.804858227+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260322_220247-zthiorub/logs/debug-core.log"}
+{"time":"2026-03-22T22:02:47.907766432+01:00","level":"INFO","msg":"created new stream","id":"zthiorub"}
+{"time":"2026-03-22T22:02:47.907803554+01:00","level":"INFO","msg":"stream: started","id":"zthiorub"}
+{"time":"2026-03-22T22:02:47.907824756+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zthiorub"}
+{"time":"2026-03-22T22:02:47.907874768+01:00","level":"INFO","msg":"sender: started","stream_id":"zthiorub"}
+{"time":"2026-03-22T22:02:47.90785307+01:00","level":"INFO","msg":"handler: started","stream_id":"zthiorub"}
+{"time":"2026-03-22T22:02:48.368642929+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-23T00:37:31.872190844+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-23T00:37:31.87276437+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-23T00:37:32.777487837+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-23T00:37:32.833791517+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 50-51, summary, console lines 98-108","runtime_seconds":0.056167001}],"total_operations":1}}
+{"time":"2026-03-23T00:37:34.149064695+01:00","level":"INFO","msg":"stream: closing","id":"zthiorub"}
+{"time":"2026-03-23T00:37:34.149098469+01:00","level":"INFO","msg":"handler: closed","stream_id":"zthiorub"}
+{"time":"2026-03-23T00:37:34.149106562+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zthiorub"}
+{"time":"2026-03-23T00:37:34.14911667+01:00","level":"INFO","msg":"sender: closed","stream_id":"zthiorub"}
+{"time":"2026-03-23T00:37:34.149161454+01:00","level":"INFO","msg":"stream: closed","id":"zthiorub"}

@@ -1,0 +1,28 @@
+Applying pruning with intermediate ratio 0.10...
+Epoch 2/2 - Loss: 0.3054 - Train Acc: 92.01% - Test Acc: 94.01%
+Epoch 3/2 - Loss: 0.2555 - Train Acc: 92.83% - Test Acc: 94.22%
+Accuracy after pruning with ratio 0.1: 94.22%
+Applying pruning with intermediate ratio 0.20...
+Epoch 2/2 - Loss: 0.2471 - Train Acc: 93.13% - Test Acc: 94.39%
+Epoch 3/2 - Loss: 0.2321 - Train Acc: 93.45% - Test Acc: 94.73%
+Accuracy after pruning with ratio 0.2: 94.73%
+Applying pruning with intermediate ratio 0.30...
+Epoch 2/2 - Loss: 0.2300 - Train Acc: 93.46% - Test Acc: 94.23%
+Epoch 3/2 - Loss: 0.2163 - Train Acc: 93.65% - Test Acc: 94.51%
+Accuracy after pruning with ratio 0.30000000000000004: 94.51%
+Applying pruning with intermediate ratio 0.40...
+Epoch 2/2 - Loss: 0.2165 - Train Acc: 93.98% - Test Acc: 94.53%
+Epoch 3/2 - Loss: 0.1961 - Train Acc: 94.14% - Test Acc: 94.52%
+Accuracy after pruning with ratio 0.4: 94.52%
+Applying pruning with intermediate ratio 0.50...
+Epoch 2/2 - Loss: 0.2059 - Train Acc: 94.21% - Test Acc: 94.17%
+Epoch 3/2 - Loss: 0.1930 - Train Acc: 94.66% - Test Acc: 94.61%
+Accuracy after pruning with ratio 0.5: 94.61%
+Applying pruning with intermediate ratio 0.60...
+Epoch 2/2 - Loss: 0.2006 - Train Acc: 94.35% - Test Acc: 94.30%
+Epoch 3/2 - Loss: 0.1853 - Train Acc: 94.73% - Test Acc: 94.55%
+Accuracy after pruning with ratio 0.6: 94.55%
+Applying pruning with intermediate ratio 0.70...
+Epoch 2/2 - Loss: 0.2066 - Train Acc: 94.28% - Test Acc: 94.13%
+Epoch 3/2 - Loss: 0.1899 - Train Acc: 94.63% - Test Acc: 94.47%
+Accuracy after pruning with ratio 0.7: 94.47%

@@ -1,0 +1,17 @@
+{"time":"2026-03-02T19:45:20.949992106+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-02T19:45:20.950016688+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260302_194520-cjrps5hi/logs/debug-core.log"}
+{"time":"2026-03-02T19:45:21.198632784+01:00","level":"INFO","msg":"created new stream","id":"cjrps5hi"}
+{"time":"2026-03-02T19:45:21.198662565+01:00","level":"INFO","msg":"stream: started","id":"cjrps5hi"}
+{"time":"2026-03-02T19:45:21.198720107+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cjrps5hi"}
+{"time":"2026-03-02T19:45:21.198803671+01:00","level":"INFO","msg":"handler: started","stream_id":"cjrps5hi"}
+{"time":"2026-03-02T19:45:21.198815961+01:00","level":"INFO","msg":"sender: started","stream_id":"cjrps5hi"}
+{"time":"2026-03-02T19:45:21.580146003+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-02T20:20:30.271197179+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-02T20:20:30.271601026+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-02T20:20:31.175927332+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-02T20:20:31.271555726+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 15-15, summary, console lines 17-21","runtime_seconds":0.095523641}],"total_operations":1}}
+{"time":"2026-03-02T20:20:32.572044436+01:00","level":"INFO","msg":"stream: closing","id":"cjrps5hi"}
+{"time":"2026-03-02T20:20:32.572075918+01:00","level":"INFO","msg":"handler: closed","stream_id":"cjrps5hi"}
+{"time":"2026-03-02T20:20:32.572084311+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cjrps5hi"}
+{"time":"2026-03-02T20:20:32.572089615+01:00","level":"INFO","msg":"sender: closed","stream_id":"cjrps5hi"}
+{"time":"2026-03-02T20:20:32.572131141+01:00","level":"INFO","msg":"stream: closed","id":"cjrps5hi"}

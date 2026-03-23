@@ -1,0 +1,17 @@
+{"time":"2026-02-28T15:33:25.265808961+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-28T15:33:25.265840736+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260228_153325-hslfb2va/logs/debug-core.log"}
+{"time":"2026-02-28T15:33:25.56073877+01:00","level":"INFO","msg":"created new stream","id":"hslfb2va"}
+{"time":"2026-02-28T15:33:25.560768578+01:00","level":"INFO","msg":"stream: started","id":"hslfb2va"}
+{"time":"2026-02-28T15:33:25.561575582+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hslfb2va"}
+{"time":"2026-02-28T15:33:25.561810228+01:00","level":"INFO","msg":"handler: started","stream_id":"hslfb2va"}
+{"time":"2026-02-28T15:33:25.561894726+01:00","level":"INFO","msg":"sender: started","stream_id":"hslfb2va"}
+{"time":"2026-02-28T15:33:26.022990343+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-28T15:59:58.194212696+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-28T15:59:58.195019234+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-28T15:59:58.958445891+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-28T15:59:59.187183425+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 11-11, summary, console lines 12-14","runtime_seconds":0.228641319}],"total_operations":1}}
+{"time":"2026-02-28T16:00:00.413657174+01:00","level":"INFO","msg":"stream: closing","id":"hslfb2va"}
+{"time":"2026-02-28T16:00:00.413907697+01:00","level":"INFO","msg":"handler: closed","stream_id":"hslfb2va"}
+{"time":"2026-02-28T16:00:00.413926403+01:00","level":"INFO","msg":"sender: closed","stream_id":"hslfb2va"}
+{"time":"2026-02-28T16:00:00.413921444+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hslfb2va"}
+{"time":"2026-02-28T16:00:00.413987297+01:00","level":"INFO","msg":"stream: closed","id":"hslfb2va"}

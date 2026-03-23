@@ -1,0 +1,16 @@
+{"time":"2026-03-03T15:49:28.82406745+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-03T15:49:28.824168597+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260303_154928-emnu0fjs/logs/debug-core.log"}
+{"time":"2026-03-03T15:49:28.929013387+01:00","level":"INFO","msg":"created new stream","id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:28.929045589+01:00","level":"INFO","msg":"stream: started","id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:28.92907738+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:28.929187346+01:00","level":"INFO","msg":"handler: started","stream_id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:28.929202173+01:00","level":"INFO","msg":"sender: started","stream_id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:29.380578098+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-03T15:49:29.874441276+01:00","level":"INFO","msg":"stream: closing","id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:29.874535988+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-03T15:49:29.875251453+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-03T15:49:31.337839558+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-03T15:49:31.811649445+01:00","level":"INFO","msg":"handler: closed","stream_id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:31.811715958+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:31.811765798+01:00","level":"INFO","msg":"sender: closed","stream_id":"emnu0fjs"}
+{"time":"2026-03-03T15:49:31.811773517+01:00","level":"INFO","msg":"stream: closed","id":"emnu0fjs"}

@@ -1,0 +1,17 @@
+{"time":"2026-03-04T08:11:55.130688654+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-04T08:11:55.130710427+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260304_081155-welq8s07/logs/debug-core.log"}
+{"time":"2026-03-04T08:11:55.233417524+01:00","level":"INFO","msg":"created new stream","id":"welq8s07"}
+{"time":"2026-03-04T08:11:55.233447314+01:00","level":"INFO","msg":"stream: started","id":"welq8s07"}
+{"time":"2026-03-04T08:11:55.233469082+01:00","level":"INFO","msg":"handler: started","stream_id":"welq8s07"}
+{"time":"2026-03-04T08:11:55.233468814+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"welq8s07"}
+{"time":"2026-03-04T08:11:55.233491036+01:00","level":"INFO","msg":"sender: started","stream_id":"welq8s07"}
+{"time":"2026-03-04T08:11:55.681371562+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-04T13:40:29.167576114+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-04T13:40:29.167985833+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-04T13:40:30.167987505+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.133542141,"progress":"686B/686B"},{"desc":"uploading output.log","runtime_seconds":0.133533194,"progress":"5.3KB/5.3KB"}],"total_operations":2}}
+{"time":"2026-03-04T13:40:30.255652846+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T13:40:31.862349415+01:00","level":"INFO","msg":"stream: closing","id":"welq8s07"}
+{"time":"2026-03-04T13:40:31.862379976+01:00","level":"INFO","msg":"handler: closed","stream_id":"welq8s07"}
+{"time":"2026-03-04T13:40:31.862388344+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"welq8s07"}
+{"time":"2026-03-04T13:40:31.86240945+01:00","level":"INFO","msg":"sender: closed","stream_id":"welq8s07"}
+{"time":"2026-03-04T13:40:31.862458768+01:00","level":"INFO","msg":"stream: closed","id":"welq8s07"}

@@ -1,0 +1,19 @@
+{"time":"2026-02-24T15:42:27.777767268+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-24T15:42:27.777789162+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260224_154227-fjlfpz7v/logs/debug-core.log"}
+{"time":"2026-02-24T15:42:27.880878801+01:00","level":"INFO","msg":"created new stream","id":"fjlfpz7v"}
+{"time":"2026-02-24T15:42:27.88090989+01:00","level":"INFO","msg":"stream: started","id":"fjlfpz7v"}
+{"time":"2026-02-24T15:42:27.880932391+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fjlfpz7v"}
+{"time":"2026-02-24T15:42:27.881047941+01:00","level":"INFO","msg":"handler: started","stream_id":"fjlfpz7v"}
+{"time":"2026-02-24T15:42:27.881067375+01:00","level":"INFO","msg":"sender: started","stream_id":"fjlfpz7v"}
+{"time":"2026-02-24T15:42:28.298516176+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-24T15:44:13.928155745+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20Resnet18/fjlfpz7v/file_stream"}
+{"time":"2026-02-24T15:44:13.928204601+01:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/scherpereelant-imt-atlantique/efficient deep learning Resnet18/fjlfpz7v/file_stream: {\"error\":\"run efficient deep learning Resnet18/fjlfpz7v not found while streaming file\"}"}
+{"time":"2026-02-24T15:44:39.254375697+01:00","level":"INFO","msg":"stream: closing","id":"fjlfpz7v"}
+{"time":"2026-02-24T15:44:39.254409296+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-24T15:44:39.254828597+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-24T15:44:39.400668544+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run fjlfpz7v was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-02-24T15:44:39.434832915+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2026-02-24T15:44:39.43486876+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run efficient deep learning Resnet18/fjlfpz7v not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2026-02-24T15:44:41.725190983+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run fjlfpz7v was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-02-24T15:44:46.191090011+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run fjlfpz7v was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-02-24T15:44:54.330922393+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run fjlfpz7v was previously created and deleted; try a new run id\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

@@ -1,0 +1,16 @@
+
+Fine-tuning for 10 epochs...
+  [epoch 0 – before fine-tune] test acc: 20.02%
+  Epoch 1/10 – loss: 0.7668 – train: 74.75% – test: 80.46%
+  Epoch 2/10 – loss: 0.5992 – train: 80.68% – test: 85.58%
+  Epoch 3/10 – loss: 0.5335 – train: 80.46% – test: 85.25%
+  Epoch 4/10 – loss: 0.4857 – train: 84.21% – test: 87.51%
+  Epoch 5/10 – loss: 0.4426 – train: 86.25% – test: 89.79%
+  Epoch 6/10 – loss: 0.3918 – train: 87.06% – test: 89.22%
+  Epoch 7/10 – loss: 0.3624 – train: 88.67% – test: 90.61%
+  Epoch 8/10 – loss: 0.3207 – train: 90.39% – test: 91.85%
+  Epoch 9/10 – loss: 0.2956 – train: 90.69% – test: 92.33%
+  Epoch 10/10 – loss: 0.2777 – train: 91.22% – test: 92.62%
+
+Final accuracy: 92.62%
+Saved to checkpoints/ResNet18_struct80_unstruct20.pth

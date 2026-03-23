@@ -1,0 +1,22 @@
+
+Fine-tuning for 14 epochs...
+  [epoch 0 – before fine-tune] test acc: 87.27%
+  Epoch 1/14 – loss: 0.5700 – train: 83.43% – test: 87.99%
+  Epoch 2/14 – loss: 0.4826 – train: 85.26% – test: 88.31%
+  Epoch 3/14 – loss: 0.4419 – train: 85.69% – test: 87.88%
+  Epoch 4/14 – loss: 0.4079 – train: 86.69% – test: 88.91%
+  Epoch 5/14 – loss: 0.3860 – train: 87.76% – test: 89.82%
+  Epoch 6/14 – loss: 0.3606 – train: 88.32% – test: 89.33%
+  Epoch 7/14 – loss: 0.3347 – train: 89.26% – test: 90.16%
+  Epoch 8/14 – loss: 0.3040 – train: 90.24% – test: 90.87%
+  Epoch 9/14 – loss: 0.2808 – train: 90.90% – test: 90.81%
+  Epoch 10/14 – loss: 0.2602 – train: 91.58% – test: 91.11%
+  Epoch 11/14 – loss: 0.2375 – train: 92.55% – test: 91.63%
+  Epoch 12/14 – loss: 0.2157 – train: 92.66% – test: 92.00%
+  Epoch 13/14 – loss: 0.2100 – train: 92.89% – test: 91.99%
+  Epoch 14/14 – loss: 0.1989 – train: 93.18% – test: 92.07%
+
+Final accuracy: 92.07%
+Quantatization in 16 bits...
+Final accuracy after quantization: 92.07%
+Saved to checkpoints/ResNet18_struct60_unstruct60.pth

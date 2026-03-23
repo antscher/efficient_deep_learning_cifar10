@@ -1,0 +1,33 @@
+
+Fine-tuning for 25 epochs...
+  [epoch 0 – before fine-tune] test acc: 18.81%
+  Epoch 1/25 – loss: 1.1736 – train: 66.92% – test: 71.81%
+  Epoch 2/25 – loss: 0.9070 – train: 70.76% – test: 75.12%
+  Epoch 3/25 – loss: 0.8294 – train: 72.22% – test: 76.67%
+  Epoch 4/25 – loss: 0.7803 – train: 73.43% – test: 76.56%
+  Epoch 5/25 – loss: 0.7471 – train: 75.20% – test: 76.74%
+  Epoch 6/25 – loss: 0.7157 – train: 75.90% – test: 79.56%
+  Epoch 7/25 – loss: 0.6913 – train: 76.77% – test: 79.90%
+  Epoch 8/25 – loss: 0.6792 – train: 77.13% – test: 80.00%
+  Epoch 9/25 – loss: 0.6551 – train: 78.35% – test: 80.20%
+  Epoch 10/25 – loss: 0.6341 – train: 78.37% – test: 80.65%
+  Epoch 11/25 – loss: 0.6255 – train: 78.68% – test: 80.70%
+  Epoch 12/25 – loss: 0.6063 – train: 79.18% – test: 81.09%
+  Epoch 13/25 – loss: 0.5970 – train: 79.93% – test: 82.04%
+  Epoch 14/25 – loss: 0.5886 – train: 79.98% – test: 81.39%
+  Epoch 15/25 – loss: 0.5752 – train: 80.34% – test: 82.32%
+  Epoch 16/25 – loss: 0.5588 – train: 81.02% – test: 82.61%
+  Epoch 17/25 – loss: 0.5502 – train: 81.19% – test: 82.95%
+  Epoch 18/25 – loss: 0.5425 – train: 81.58% – test: 82.97%
+  Epoch 19/25 – loss: 0.5327 – train: 81.77% – test: 82.93%
+  Epoch 20/25 – loss: 0.5243 – train: 81.93% – test: 83.23%
+  Epoch 21/25 – loss: 0.5208 – train: 82.44% – test: 83.52%
+  Epoch 22/25 – loss: 0.5175 – train: 82.38% – test: 83.74%
+  Epoch 23/25 – loss: 0.5100 – train: 82.60% – test: 83.60%
+  Epoch 24/25 – loss: 0.5104 – train: 82.45% – test: 83.69%
+  Epoch 25/25 – loss: 0.5096 – train: 82.62% – test: 83.75%
+
+Final accuracy: 83.75%
+Quantatization in 16 bits...
+Final accuracy after quantization: 83.77%
+Saved to checkpoints/ResNet10_struct80_unstruct50_ResNet10.pth

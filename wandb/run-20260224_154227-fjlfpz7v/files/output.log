@@ -1,0 +1,26 @@
+Number of parameters: 11.17M
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 4, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 120, in train_model
+    running_loss += loss.item()
+                    ^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 4, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 120, in train_model
+    running_loss += loss.item()
+                    ^^^^^^^^^^^
+KeyboardInterrupt

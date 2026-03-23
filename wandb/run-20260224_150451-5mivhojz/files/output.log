@@ -1,0 +1,33 @@
+Number of parameters: 11.17M
+Epoch 1/55 - Loss: 2.0721 - Train Acc: 44.13% - Test Acc: 45.09%
+Epoch 2/55 - Loss: 1.7801 - Train Acc: 50.15% - Test Acc: 51.06%
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 5, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 122, in train_model
+    acc_train = evaluate(model, trainloader)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 84, in evaluate
+    correct += pred.eq(y).sum().item()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 5, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 122, in train_model
+    acc_train = evaluate(model, trainloader)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 84, in evaluate
+    correct += pred.eq(y).sum().item()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

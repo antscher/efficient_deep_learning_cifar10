@@ -1,0 +1,202 @@
+
+======================================================================
+[STEP 1] Structured Pruning
+======================================================================
+
+── Structured pruning (ratio=0.7) ──
+  Internal channels: 64→19 (removed 45, 70.3%)
+  Internal channels: 64→19 (removed 45, 70.3%)
+  Internal channels: 128→38 (removed 90, 70.3%)
+  Internal channels: 128→38 (removed 90, 70.3%)
+  Internal channels: 256→77 (removed 179, 69.9%)
+  Internal channels: 256→77 (removed 179, 69.9%)
+  Internal channels: 512→154 (removed 358, 69.9%)
+  Internal channels: 512→154 (removed 358, 69.9%)
+
+After structured pruning:
+  Params: 575,178 (2.51x)
+  Accuracy: 34.34%
+
+======================================================================
+[STEP 2] Unstructured Pruning
+======================================================================
+
+── Unstructured pruning (ratio=0.3) ──
+  Sparsity: 30.0%  (169,250 / 564,160 weights zeroed)
+
+After unstructured pruning:
+  Accuracy: 31.45%
+
+======================================================================
+[STEP 3] Fine-tune after Pruning with Distillation (0 epochs)
+======================================================================
+
+Training with distillation (T=4.0, α=0.8)...
+
+Accuracy after pruning fine-tune: 31.45%
+
+======================================================================
+[STEP 4] Apply 8-bit Fake Quantization
+======================================================================
+[FakeQuant] Applying 8-bit weight quantization to: conv1
+[FakeQuant] Registering 8-bit activation hook on: conv1
+[FakeQuant] Applying 8-bit weight quantization to: layer1.0.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer1.0.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.0.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer1.0.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.0.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer1.0.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.0.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer1.0.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.1.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer1.1.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.1.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer1.1.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.1.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer1.1.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer1.1.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer1.1.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.0.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer2.0.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.0.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer2.0.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.0.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer2.0.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.0.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer2.0.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.0.shortcut.0
+[FakeQuant] Registering 8-bit activation hook on: layer2.0.shortcut.0
+[FakeQuant] Applying 8-bit weight quantization to: layer2.1.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer2.1.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.1.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer2.1.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.1.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer2.1.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer2.1.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer2.1.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.0.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer3.0.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.0.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer3.0.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.0.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer3.0.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.0.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer3.0.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.0.shortcut.0
+[FakeQuant] Registering 8-bit activation hook on: layer3.0.shortcut.0
+[FakeQuant] Applying 8-bit weight quantization to: layer3.1.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer3.1.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.1.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer3.1.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.1.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer3.1.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer3.1.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer3.1.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.0.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer4.0.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.0.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer4.0.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.0.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer4.0.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.0.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer4.0.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.0.shortcut.0
+[FakeQuant] Registering 8-bit activation hook on: layer4.0.shortcut.0
+[FakeQuant] Applying 8-bit weight quantization to: layer4.1.conv1_dw
+[FakeQuant] Registering 8-bit activation hook on: layer4.1.conv1_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.1.conv1_pw
+[FakeQuant] Registering 8-bit activation hook on: layer4.1.conv1_pw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.1.conv2_dw
+[FakeQuant] Registering 8-bit activation hook on: layer4.1.conv2_dw
+[FakeQuant] Applying 8-bit weight quantization to: layer4.1.conv2_pw
+[FakeQuant] Registering 8-bit activation hook on: layer4.1.conv2_pw
+[FakeQuant] Applying 8-bit weight quantization to: linear
+[FakeQuant] Registering 8-bit activation hook on: linear
+
+Accuracy after quantization (before fine-tune): 31.05%
+
+======================================================================
+[STEP 5] Fine-tune after Quantization with Distillation (25 epochs)
+======================================================================
+
+Training with distillation (T=4.0, α=0.8)...
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 691, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 611, in pipeline_pruning_quantization_distill
+    student_model_quant = train_with_distillation(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 397, in train_with_distillation
+    for x, y in trainloader:
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 350, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/_functional_tensor.py", line 920, in normalize
+    mean = torch.as_tensor(mean, dtype=dtype, device=tensor.device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 691, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 611, in pipeline_pruning_quantization_distill
+    student_model_quant = train_with_distillation(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 397, in train_with_distillation
+    for x, y in trainloader:
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 350, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/_functional_tensor.py", line 920, in normalize
+    mean = torch.as_tensor(mean, dtype=dtype, device=tensor.device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

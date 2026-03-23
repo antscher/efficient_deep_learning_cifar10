@@ -1,0 +1,16 @@
+{"time":"2026-03-17T14:45:02.442953695+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-17T14:45:02.442984768+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260317_144502-bf3zn41p/logs/debug-core.log"}
+{"time":"2026-03-17T14:45:02.545751004+01:00","level":"INFO","msg":"created new stream","id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:02.545798584+01:00","level":"INFO","msg":"stream: started","id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:02.545966622+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:02.545979673+01:00","level":"INFO","msg":"handler: started","stream_id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:02.546024072+01:00","level":"INFO","msg":"sender: started","stream_id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:03.99191582+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-17T14:45:05.238997404+01:00","level":"INFO","msg":"stream: closing","id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:05.239032945+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-17T14:45:05.239652699+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-17T14:45:06.052475611+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-17T14:45:10.526557249+01:00","level":"INFO","msg":"handler: closed","stream_id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:10.526604456+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:10.526609218+01:00","level":"INFO","msg":"sender: closed","stream_id":"bf3zn41p"}
+{"time":"2026-03-17T14:45:10.526659534+01:00","level":"INFO","msg":"stream: closed","id":"bf3zn41p"}

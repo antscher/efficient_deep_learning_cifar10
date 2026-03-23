@@ -1,0 +1,17 @@
+{"time":"2026-03-02T18:29:14.647760582+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-02T18:29:14.647780517+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260302_182914-9sj8pky8/logs/debug-core.log"}
+{"time":"2026-03-02T18:29:14.750471886+01:00","level":"INFO","msg":"created new stream","id":"9sj8pky8"}
+{"time":"2026-03-02T18:29:14.750503155+01:00","level":"INFO","msg":"stream: started","id":"9sj8pky8"}
+{"time":"2026-03-02T18:29:14.750791849+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"9sj8pky8"}
+{"time":"2026-03-02T18:29:14.750860423+01:00","level":"INFO","msg":"sender: started","stream_id":"9sj8pky8"}
+{"time":"2026-03-02T18:29:14.750898569+01:00","level":"INFO","msg":"handler: started","stream_id":"9sj8pky8"}
+{"time":"2026-03-02T18:29:15.197342523+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-02T19:07:14.857512743+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-02T19:07:14.858191986+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-02T19:07:15.857872352+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 14-15, summary, console lines 16-21","runtime_seconds":0.146524743},{"desc":"uploading config.yaml","runtime_seconds":0.126127406,"progress":"904B/904B"},{"desc":"uploading output.log","runtime_seconds":0.126118337,"progress":"1.1KB/1.1KB"}],"total_operations":3}}
+{"time":"2026-03-02T19:07:16.32340148+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-02T19:07:17.702205268+01:00","level":"INFO","msg":"stream: closing","id":"9sj8pky8"}
+{"time":"2026-03-02T19:07:17.702241294+01:00","level":"INFO","msg":"handler: closed","stream_id":"9sj8pky8"}
+{"time":"2026-03-02T19:07:17.702250252+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9sj8pky8"}
+{"time":"2026-03-02T19:07:17.702279696+01:00","level":"INFO","msg":"sender: closed","stream_id":"9sj8pky8"}
+{"time":"2026-03-02T19:07:17.702312106+01:00","level":"INFO","msg":"stream: closed","id":"9sj8pky8"}

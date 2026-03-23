@@ -1,0 +1,37 @@
+Number of parameters: 11.17M
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 4, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 118, in train_model
+    loss.backward()
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 4, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 118, in train_model
+    loss.backward()
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

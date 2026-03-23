@@ -1,0 +1,17 @@
+{"time":"2026-03-01T21:03:57.720029971+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-01T21:03:57.720063362+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260301_210357-kw32wcok/logs/debug-core.log"}
+{"time":"2026-03-01T21:03:58.011478184+01:00","level":"INFO","msg":"created new stream","id":"kw32wcok"}
+{"time":"2026-03-01T21:03:58.011513492+01:00","level":"INFO","msg":"stream: started","id":"kw32wcok"}
+{"time":"2026-03-01T21:03:58.011550483+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kw32wcok"}
+{"time":"2026-03-01T21:03:58.011641646+01:00","level":"INFO","msg":"handler: started","stream_id":"kw32wcok"}
+{"time":"2026-03-01T21:03:58.011657687+01:00","level":"INFO","msg":"sender: started","stream_id":"kw32wcok"}
+{"time":"2026-03-01T21:03:58.47758643+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-01T21:30:48.207530676+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-01T21:30:48.207952146+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-01T21:30:48.98266428+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-01T21:30:49.182592045+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-01T21:30:50.324564288+01:00","level":"INFO","msg":"stream: closing","id":"kw32wcok"}
+{"time":"2026-03-01T21:30:50.32460599+01:00","level":"INFO","msg":"handler: closed","stream_id":"kw32wcok"}
+{"time":"2026-03-01T21:30:50.324615139+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kw32wcok"}
+{"time":"2026-03-01T21:30:50.324665079+01:00","level":"INFO","msg":"sender: closed","stream_id":"kw32wcok"}
+{"time":"2026-03-01T21:30:50.324671221+01:00","level":"INFO","msg":"stream: closed","id":"kw32wcok"}

@@ -1,0 +1,19 @@
+{"time":"2026-02-25T02:12:26.665219449+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-25T02:12:26.665242728+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260225_021226-yct19s37/logs/debug-core.log"}
+{"time":"2026-02-25T02:12:26.851607737+01:00","level":"INFO","msg":"created new stream","id":"yct19s37"}
+{"time":"2026-02-25T02:12:26.851639483+01:00","level":"INFO","msg":"stream: started","id":"yct19s37"}
+{"time":"2026-02-25T02:12:26.851662341+01:00","level":"INFO","msg":"sender: started","stream_id":"yct19s37"}
+{"time":"2026-02-25T02:12:26.851658742+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yct19s37"}
+{"time":"2026-02-25T02:12:26.851687174+01:00","level":"INFO","msg":"handler: started","stream_id":"yct19s37"}
+{"time":"2026-02-25T02:12:27.499198669+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-25T03:08:13.210455446+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-25T03:09:13.217088796+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2026-02-25T05:10:50.941462157+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-25T05:10:50.941871444+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-25T05:10:51.94164685+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.014694886,"progress":"664B/664B"},{"desc":"uploading output.log","runtime_seconds":0.014686623,"progress":"3.6KB/3.6KB"}],"total_operations":2}}
+{"time":"2026-02-25T05:10:52.527596795+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-25T05:10:54.303739186+01:00","level":"INFO","msg":"stream: closing","id":"yct19s37"}
+{"time":"2026-02-25T05:10:54.303779712+01:00","level":"INFO","msg":"handler: closed","stream_id":"yct19s37"}
+{"time":"2026-02-25T05:10:54.303788845+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yct19s37"}
+{"time":"2026-02-25T05:10:54.303839417+01:00","level":"INFO","msg":"sender: closed","stream_id":"yct19s37"}
+{"time":"2026-02-25T05:10:54.30384602+01:00","level":"INFO","msg":"stream: closed","id":"yct19s37"}

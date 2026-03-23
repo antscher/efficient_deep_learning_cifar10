@@ -1,0 +1,16 @@
+{"time":"2026-02-24T15:47:41.368258032+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-24T15:47:41.368277146+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260224_154741-kfv463cq/logs/debug-core.log"}
+{"time":"2026-02-24T15:47:41.47123757+01:00","level":"INFO","msg":"created new stream","id":"kfv463cq"}
+{"time":"2026-02-24T15:47:41.471267781+01:00","level":"INFO","msg":"stream: started","id":"kfv463cq"}
+{"time":"2026-02-24T15:47:41.471324145+01:00","level":"INFO","msg":"handler: started","stream_id":"kfv463cq"}
+{"time":"2026-02-24T15:47:41.471361713+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kfv463cq"}
+{"time":"2026-02-24T15:47:41.471342969+01:00","level":"INFO","msg":"sender: started","stream_id":"kfv463cq"}
+{"time":"2026-02-24T15:47:41.773248997+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-24T15:49:05.951660062+01:00","level":"INFO","msg":"stream: closing","id":"kfv463cq"}
+{"time":"2026-02-24T15:49:05.951703278+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-24T15:49:05.952280201+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-24T15:49:06.598528867+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T15:49:07.022495126+01:00","level":"INFO","msg":"handler: closed","stream_id":"kfv463cq"}
+{"time":"2026-02-24T15:49:07.022528725+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kfv463cq"}
+{"time":"2026-02-24T15:49:07.022594032+01:00","level":"INFO","msg":"sender: closed","stream_id":"kfv463cq"}
+{"time":"2026-02-24T15:49:07.022602015+01:00","level":"INFO","msg":"stream: closed","id":"kfv463cq"}

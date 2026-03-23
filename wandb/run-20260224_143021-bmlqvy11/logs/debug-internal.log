@@ -1,0 +1,18 @@
+{"time":"2026-02-24T14:30:21.866592423+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-24T14:30:21.866619935+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260224_143021-bmlqvy11/logs/debug-core.log"}
+{"time":"2026-02-24T14:30:21.983346186+01:00","level":"INFO","msg":"created new stream","id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:21.983376627+01:00","level":"INFO","msg":"stream: started","id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:21.983395483+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:21.98347804+01:00","level":"INFO","msg":"handler: started","stream_id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:21.983493506+01:00","level":"INFO","msg":"sender: started","stream_id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:22.157334464+01:00","level":"ERROR","msg":"HTTP error","status":401,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2026-02-24T14:30:22.157413428+01:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 401 Unauthorized: {\"errors\":[{\"message\":\"user is not logged in\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-02-24T14:30:22.194452564+01:00","level":"INFO","msg":"stream: closing","id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:22.194795375+01:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2026-02-24T14:30:22.383061651+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2026-02-24T14:30:22.383096596+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run efficient deep learning Resnet18/bmlqvy11 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2026-02-24T14:30:22.385430939+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T14:30:22.385540987+01:00","level":"INFO","msg":"handler: closed","stream_id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:22.385548663+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:22.385555287+01:00","level":"INFO","msg":"sender: closed","stream_id":"bmlqvy11"}
+{"time":"2026-02-24T14:30:22.38558815+01:00","level":"INFO","msg":"stream: closed","id":"bmlqvy11"}

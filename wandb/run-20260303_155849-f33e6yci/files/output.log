@@ -1,0 +1,26 @@
+Model: ResNet
+Number of parameters: 4.90M
+Epoch 1/80 - Loss: 1.9156 - Train Acc: 47.26% - Test Acc: 48.11%
+Epoch 2/80 - Loss: 1.7388 - Train Acc: 53.42% - Test Acc: 53.63%
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup_cos.py", line 157, in <module>
+    # =========================
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup_cos.py", line 100, in train_model
+    acc_train = evaluate(model, trainloader)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup_cos.py", line 68, in evaluate
+    correct += pred.eq(y).sum().item()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup_cos.py", line 157, in <module>
+    # =========================
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup_cos.py", line 100, in train_model
+    acc_train = evaluate(model, trainloader)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup_cos.py", line 68, in evaluate
+    correct += pred.eq(y).sum().item()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

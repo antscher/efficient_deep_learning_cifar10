@@ -1,0 +1,17 @@
+{"time":"2026-03-01T21:58:07.983224025+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-01T21:58:07.983254212+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260301_215807-ix9msbz7/logs/debug-core.log"}
+{"time":"2026-03-01T21:58:08.253043496+01:00","level":"INFO","msg":"created new stream","id":"ix9msbz7"}
+{"time":"2026-03-01T21:58:08.253065432+01:00","level":"INFO","msg":"stream: started","id":"ix9msbz7"}
+{"time":"2026-03-01T21:58:08.253297989+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ix9msbz7"}
+{"time":"2026-03-01T21:58:08.253312638+01:00","level":"INFO","msg":"handler: started","stream_id":"ix9msbz7"}
+{"time":"2026-03-01T21:58:08.253318582+01:00","level":"INFO","msg":"sender: started","stream_id":"ix9msbz7"}
+{"time":"2026-03-01T21:58:08.774083003+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-01T22:24:23.950235852+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-01T22:24:23.950636227+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-01T22:24:24.950636133+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.201704747,"progress":"904B/904B"},{"desc":"uploading output.log","runtime_seconds":0.2016964,"progress":"809B/809B"}],"total_operations":2}}
+{"time":"2026-03-01T22:24:25.028900144+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-01T22:24:26.759437445+01:00","level":"INFO","msg":"stream: closing","id":"ix9msbz7"}
+{"time":"2026-03-01T22:24:26.759480739+01:00","level":"INFO","msg":"handler: closed","stream_id":"ix9msbz7"}
+{"time":"2026-03-01T22:24:26.7594905+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ix9msbz7"}
+{"time":"2026-03-01T22:24:26.759538432+01:00","level":"INFO","msg":"sender: closed","stream_id":"ix9msbz7"}
+{"time":"2026-03-01T22:24:26.759544555+01:00","level":"INFO","msg":"stream: closed","id":"ix9msbz7"}

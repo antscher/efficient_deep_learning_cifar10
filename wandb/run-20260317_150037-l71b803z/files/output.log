@@ -1,0 +1,43 @@
+
+======================================================================
+[STEP 1] Structured Pruning
+======================================================================
+
+── Structured pruning (ratio=0.7) ──
+  conv1 64→19 filters (removed 45, 70.3%)
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 598, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 441, in pipeline_pruning_quantization_distill
+    student_model = apply_structured_pruning(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 179, in apply_structured_pruning
+    block.conv1_dw = prune_conv_out_channels(conv1_dw, keep_idx)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 101, in prune_conv_out_channels
+    new_conv = nn.Conv2d(
+               ^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 521, in __init__
+    super().__init__(
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 109, in __init__
+    raise ValueError("out_channels must be divisible by groups")
+ValueError: out_channels must be divisible by groups
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 598, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 441, in pipeline_pruning_quantization_distill
+    student_model = apply_structured_pruning(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 179, in apply_structured_pruning
+    block.conv1_dw = prune_conv_out_channels(conv1_dw, keep_idx)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 101, in prune_conv_out_channels
+    new_conv = nn.Conv2d(
+               ^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 521, in __init__
+    super().__init__(
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 109, in __init__
+    raise ValueError("out_channels must be divisible by groups")
+ValueError: out_channels must be divisible by groups

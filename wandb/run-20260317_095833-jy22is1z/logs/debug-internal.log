@@ -1,0 +1,17 @@
+{"time":"2026-03-17T09:58:33.80907248+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-17T09:58:33.809108008+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260317_095833-jy22is1z/logs/debug-core.log"}
+{"time":"2026-03-17T09:58:33.912119404+01:00","level":"INFO","msg":"created new stream","id":"jy22is1z"}
+{"time":"2026-03-17T09:58:33.912160385+01:00","level":"INFO","msg":"stream: started","id":"jy22is1z"}
+{"time":"2026-03-17T09:58:33.913076012+01:00","level":"INFO","msg":"sender: started","stream_id":"jy22is1z"}
+{"time":"2026-03-17T09:58:33.913081076+01:00","level":"INFO","msg":"handler: started","stream_id":"jy22is1z"}
+{"time":"2026-03-17T09:58:33.913141779+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jy22is1z"}
+{"time":"2026-03-17T09:58:34.868155551+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-17T13:34:08.576212115+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-17T13:34:08.57683997+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-17T13:34:09.572918693+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.237463254,"progress":"182B/182B"}],"total_operations":1}}
+{"time":"2026-03-17T13:34:09.886020885+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-17T13:34:11.441680109+01:00","level":"INFO","msg":"stream: closing","id":"jy22is1z"}
+{"time":"2026-03-17T13:34:11.441711881+01:00","level":"INFO","msg":"handler: closed","stream_id":"jy22is1z"}
+{"time":"2026-03-17T13:34:11.441719874+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jy22is1z"}
+{"time":"2026-03-17T13:34:11.44175634+01:00","level":"INFO","msg":"sender: closed","stream_id":"jy22is1z"}
+{"time":"2026-03-17T13:34:11.441762798+01:00","level":"INFO","msg":"stream: closed","id":"jy22is1z"}

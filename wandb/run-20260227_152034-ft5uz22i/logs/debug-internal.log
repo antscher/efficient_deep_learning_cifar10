@@ -1,0 +1,17 @@
+{"time":"2026-02-27T15:20:34.94534835+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-27T15:20:34.945374948+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260227_152034-ft5uz22i/logs/debug-core.log"}
+{"time":"2026-02-27T15:20:35.049885775+01:00","level":"INFO","msg":"created new stream","id":"ft5uz22i"}
+{"time":"2026-02-27T15:20:35.049917063+01:00","level":"INFO","msg":"stream: started","id":"ft5uz22i"}
+{"time":"2026-02-27T15:20:35.050018687+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ft5uz22i"}
+{"time":"2026-02-27T15:20:35.050039141+01:00","level":"INFO","msg":"handler: started","stream_id":"ft5uz22i"}
+{"time":"2026-02-27T15:20:35.050061738+01:00","level":"INFO","msg":"sender: started","stream_id":"ft5uz22i"}
+{"time":"2026-02-27T15:20:35.547457718+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-27T15:47:16.762922036+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-27T15:47:16.763363245+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-27T15:47:17.597625414+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-27T15:47:17.762883308+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 10-11, summary, console lines 11-14","runtime_seconds":0.165107972}],"total_operations":1}}
+{"time":"2026-02-27T15:47:18.985740306+01:00","level":"INFO","msg":"stream: closing","id":"ft5uz22i"}
+{"time":"2026-02-27T15:47:18.985773441+01:00","level":"INFO","msg":"handler: closed","stream_id":"ft5uz22i"}
+{"time":"2026-02-27T15:47:18.985781775+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ft5uz22i"}
+{"time":"2026-02-27T15:47:18.985829916+01:00","level":"INFO","msg":"sender: closed","stream_id":"ft5uz22i"}
+{"time":"2026-02-27T15:47:18.985853188+01:00","level":"INFO","msg":"stream: closed","id":"ft5uz22i"}

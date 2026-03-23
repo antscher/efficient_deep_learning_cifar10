@@ -1,0 +1,17 @@
+{"time":"2026-03-02T16:16:58.093622413+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-02T16:16:58.093647851+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260302_161657-hgra2ah5/logs/debug-core.log"}
+{"time":"2026-03-02T16:16:58.340286424+01:00","level":"INFO","msg":"created new stream","id":"hgra2ah5"}
+{"time":"2026-03-02T16:16:58.340316941+01:00","level":"INFO","msg":"stream: started","id":"hgra2ah5"}
+{"time":"2026-03-02T16:16:58.340791858+01:00","level":"INFO","msg":"handler: started","stream_id":"hgra2ah5"}
+{"time":"2026-03-02T16:16:58.340811963+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hgra2ah5"}
+{"time":"2026-03-02T16:16:58.340920937+01:00","level":"INFO","msg":"sender: started","stream_id":"hgra2ah5"}
+{"time":"2026-03-02T16:16:58.844158081+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-02T17:23:28.648722589+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-02T17:23:28.649120522+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-02T17:23:29.49817177+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-02T17:23:29.649084364+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":0.104062626}],"total_operations":1}}
+{"time":"2026-03-02T17:23:30.943318661+01:00","level":"INFO","msg":"stream: closing","id":"hgra2ah5"}
+{"time":"2026-03-02T17:23:30.943351929+01:00","level":"INFO","msg":"handler: closed","stream_id":"hgra2ah5"}
+{"time":"2026-03-02T17:23:30.943360146+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hgra2ah5"}
+{"time":"2026-03-02T17:23:30.943368973+01:00","level":"INFO","msg":"sender: closed","stream_id":"hgra2ah5"}
+{"time":"2026-03-02T17:23:30.943414407+01:00","level":"INFO","msg":"stream: closed","id":"hgra2ah5"}

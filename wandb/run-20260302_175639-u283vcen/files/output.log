@@ -1,0 +1,74 @@
+
+Fine-tuning for 10 epochs...
+  [epoch 0 – before fine-tune] test acc: 47.56%
+  Epoch 1/10 – loss: 0.5778 – train: 81.27% – test: 86.25%
+  Epoch 2/10 – loss: 0.4783 – train: 83.67% – test: 87.69%
+  Epoch 3/10 – loss: 0.4383 – train: 85.37% – test: 88.91%
+  Epoch 4/10 – loss: 0.3968 – train: 87.76% – test: 90.38%
+  Epoch 5/10 – loss: 0.3667 – train: 88.50% – test: 90.81%
+  Epoch 6/10 – loss: 0.3246 – train: 89.81% – test: 91.59%
+  Epoch 7/10 – loss: 0.2933 – train: 91.26% – test: 92.49%
+  Epoch 8/10 – loss: 0.2597 – train: 92.14% – test: 92.91%
+  Epoch 9/10 – loss: 0.2352 – train: 92.80% – test: 93.31%
+  Epoch 10/10 – loss: 0.2247 – train: 93.24% – test: 93.36%
+
+Final accuracy: 93.36%
+Quantatization in 16 bits...
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD4_pruning_structured_et_unstructured.py", line 286, in <module>
+    acc_final = evaluate(model, testloader)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD4_pruning_structured_et_unstructured.py", line 58, in evaluate
+    out = model(x)
+          ^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/pytorch_cifar/models/resnet.py", line 96, in forward
+    out = F.relu(self.bn1(self.conv1(x)))
+                          ^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.cuda.HalfTensor) should be the same
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD4_pruning_structured_et_unstructured.py", line 286, in <module>
+    acc_final = evaluate(model, testloader)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD4_pruning_structured_et_unstructured.py", line 58, in evaluate
+    out = model(x)
+          ^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/pytorch_cifar/models/resnet.py", line 96, in forward
+    out = F.relu(self.bn1(self.conv1(x)))
+                          ^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Input type (torch.cuda.FloatTensor) and weight type (torch.cuda.HalfTensor) should be the same

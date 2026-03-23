@@ -1,0 +1,132 @@
+Evaluate prunung before fine-tuning...
+Accuracy before pruning: 94.07%
+Epoch 2/10 - Loss: 0.3159 - Train Acc: 91.76% - Test Acc: 94.09%
+Epoch 2/10 - Loss: 0.2737 - Train Acc: 92.48% - Test Acc: 94.01%
+Epoch 3/10 - Loss: 0.2498 - Train Acc: 92.77% - Test Acc: 94.31%
+Epoch 4/10 - Loss: 0.2324 - Train Acc: 93.36% - Test Acc: 94.48%
+Epoch 5/10 - Loss: 0.2246 - Train Acc: 93.40% - Test Acc: 94.13%
+Epoch 6/10 - Loss: 0.2152 - Train Acc: 93.77% - Test Acc: 94.64%
+Epoch 7/10 - Loss: 0.2121 - Train Acc: 94.02% - Test Acc: 94.67%
+Epoch 8/10 - Loss: 0.2053 - Train Acc: 94.13% - Test Acc: 94.72%
+Epoch 9/10 - Loss: 0.1984 - Train Acc: 94.05% - Test Acc: 94.67%
+Epoch 10/10 - Loss: 0.1974 - Train Acc: 93.96% - Test Acc: 94.67%
+Epoch 11/10 - Loss: 0.1995 - Train Acc: 94.19% - Test Acc: 94.84%
+Removed pruning re-parametrization (mask/weight_orig) from all pruned layers.
+Saved pruned model to checkpoints/ResNet18_pruned_50.pth
+Accuracy after pruning with ratio 0.5: 94.84%
+/users/local/efficient_deep_learning/TD4_pruning_unstructured.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  loaded_cpt = torch.load('checkpoints/ResNet18_mixup_cos.pth',map_location=device)
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+Applied unstructured L1 pruning with ratio 0.75 to all Conv2d and Linear layers.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Evaluate prunung before fine-tuning...
+Accuracy before pruning: 85.49%
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 201, in <module>
+    apply_global_unstructured_pruning(model, prune_ratio)
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 168, in apply_global_unstructured_pruning
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 95, in train_model
+    for x, y in trainloader:
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 1276, in forward
+    img = F.adjust_contrast(img, contrast_factor)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 907, in adjust_contrast
+    return F_pil.adjust_contrast(img, contrast_factor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/_functional_pil.py", line 82, in adjust_contrast
+    enhancer = ImageEnhance.Contrast(img)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageEnhance.py", line 68, in __init__
+    mean = int(ImageStat.Stat(image.convert("L")).mean[0] + 0.5)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 40, in __init__
+    self.bands = list(range(len(self.h) // 256))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 201, in <module>
+    apply_global_unstructured_pruning(model, prune_ratio)
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 168, in apply_global_unstructured_pruning
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 95, in train_model
+    for x, y in trainloader:
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 1276, in forward
+    img = F.adjust_contrast(img, contrast_factor)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 907, in adjust_contrast
+    return F_pil.adjust_contrast(img, contrast_factor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/_functional_pil.py", line 82, in adjust_contrast
+    enhancer = ImageEnhance.Contrast(img)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageEnhance.py", line 68, in __init__
+    mean = int(ImageStat.Stat(image.convert("L")).mean[0] + 0.5)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 40, in __init__
+    self.bands = list(range(len(self.h) // 256))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

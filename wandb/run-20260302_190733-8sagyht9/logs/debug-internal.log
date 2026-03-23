@@ -1,0 +1,17 @@
+{"time":"2026-03-02T19:07:34.013576439+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-02T19:07:34.013600072+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260302_190733-8sagyht9/logs/debug-core.log"}
+{"time":"2026-03-02T19:07:34.250509335+01:00","level":"INFO","msg":"created new stream","id":"8sagyht9"}
+{"time":"2026-03-02T19:07:34.250538473+01:00","level":"INFO","msg":"stream: started","id":"8sagyht9"}
+{"time":"2026-03-02T19:07:34.250551238+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"8sagyht9"}
+{"time":"2026-03-02T19:07:34.250565884+01:00","level":"INFO","msg":"sender: started","stream_id":"8sagyht9"}
+{"time":"2026-03-02T19:07:34.25059936+01:00","level":"INFO","msg":"handler: started","stream_id":"8sagyht9"}
+{"time":"2026-03-02T19:07:34.787069437+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-02T19:45:02.694023661+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-02T19:45:02.695382455+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-02T19:45:03.694411937+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.093372964,"progress":"903B/903B"},{"desc":"uploading output.log","runtime_seconds":0.093365147,"progress":"1.1KB/1.1KB"}],"total_operations":2}}
+{"time":"2026-03-02T19:45:03.8013501+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-02T19:45:05.516627604+01:00","level":"INFO","msg":"stream: closing","id":"8sagyht9"}
+{"time":"2026-03-02T19:45:05.51666125+01:00","level":"INFO","msg":"handler: closed","stream_id":"8sagyht9"}
+{"time":"2026-03-02T19:45:05.516670229+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8sagyht9"}
+{"time":"2026-03-02T19:45:05.516678594+01:00","level":"INFO","msg":"sender: closed","stream_id":"8sagyht9"}
+{"time":"2026-03-02T19:45:05.516729201+01:00","level":"INFO","msg":"stream: closed","id":"8sagyht9"}

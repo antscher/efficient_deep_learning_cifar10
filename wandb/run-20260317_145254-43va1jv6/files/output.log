@@ -1,0 +1,28 @@
+
+======================================================================
+[STEP 1] Structured Pruning
+======================================================================
+
+── Structured pruning (ratio=0.7) ──
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 593, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 436, in pipeline_pruning_quantization_distill
+    student_model = apply_structured_pruning(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 164, in apply_structured_pruning
+    norms = l1_norm_filter(conv1)
+                           ^^^^^
+NameError: name 'conv1' is not defined
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 593, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 436, in pipeline_pruning_quantization_distill
+    student_model = apply_structured_pruning(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 164, in apply_structured_pruning
+    norms = l1_norm_filter(conv1)
+                           ^^^^^
+NameError: name 'conv1' is not defined

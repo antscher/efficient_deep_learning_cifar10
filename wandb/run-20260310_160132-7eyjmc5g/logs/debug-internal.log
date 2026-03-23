@@ -1,0 +1,21 @@
+{"time":"2026-03-10T16:01:33.01884503+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-10T16:01:33.018877519+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260310_160132-7eyjmc5g/logs/debug-core.log"}
+{"time":"2026-03-10T16:01:33.121810124+01:00","level":"INFO","msg":"created new stream","id":"7eyjmc5g"}
+{"time":"2026-03-10T16:01:33.121845272+01:00","level":"INFO","msg":"stream: started","id":"7eyjmc5g"}
+{"time":"2026-03-10T16:01:33.121889657+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"7eyjmc5g"}
+{"time":"2026-03-10T16:01:33.122018303+01:00","level":"INFO","msg":"handler: started","stream_id":"7eyjmc5g"}
+{"time":"2026-03-10T16:01:33.12203544+01:00","level":"INFO","msg":"sender: started","stream_id":"7eyjmc5g"}
+{"time":"2026-03-10T16:01:37.441520984+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-10T17:04:42.215478448+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20distillation/7eyjmc5g/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-10T17:15:07.908417403+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2026-03-10T17:30:52.925893303+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-03-10T17:45:37.944272446+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2026-03-10T19:03:38.016586632+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-10T19:03:38.017076682+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-10T19:03:39.016916272+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact resnet10_distilled_from_resnet18_ResNet10_mixup_cos_SGD","runtime_seconds":1.045226592},{"desc":"uploading wandb-summary.json","runtime_seconds":0.188952293,"progress":"375B/375B"}],"total_operations":2}}
+{"time":"2026-03-10T19:03:43.928516893+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-10T19:03:45.378126637+01:00","level":"INFO","msg":"stream: closing","id":"7eyjmc5g"}
+{"time":"2026-03-10T19:03:45.378172084+01:00","level":"INFO","msg":"handler: closed","stream_id":"7eyjmc5g"}
+{"time":"2026-03-10T19:03:45.378180574+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7eyjmc5g"}
+{"time":"2026-03-10T19:03:45.378192702+01:00","level":"INFO","msg":"sender: closed","stream_id":"7eyjmc5g"}
+{"time":"2026-03-10T19:03:45.378224045+01:00","level":"INFO","msg":"stream: closed","id":"7eyjmc5g"}

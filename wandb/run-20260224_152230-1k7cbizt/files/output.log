@@ -1,0 +1,69 @@
+Number of parameters: 11.17M
+Epoch 1/55 - Loss: 2.0894 - Train Acc: 40.76% - Test Acc: 42.96%
+Epoch 2/55 - Loss: 1.8201 - Train Acc: 53.38% - Test Acc: 53.95%
+Epoch 3/55 - Loss: 1.6672 - Train Acc: 57.81% - Test Acc: 58.29%
+Epoch 4/55 - Loss: 1.5576 - Train Acc: 67.01% - Test Acc: 67.41%
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 4, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 101, in train_model
+    for (x, y), (x_perm, y_perm) in zip(trainloader, trainloader_perm):
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 176, in to_tensor
+    return img.to(dtype=default_float_dtype).div(255)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/run_all_experiments.py", line 4, in <module>
+    from TD4_pruning_unstructured import apply_global_unstructured_pruning
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 6, in <module>
+    from TD2_wandb_mixup import count_parameters
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 139, in <module>
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD2_wandb_mixup.py", line 101, in train_model
+    for (x, y), (x_perm, y_perm) in zip(trainloader, trainloader_perm):
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 176, in to_tensor
+    return img.to(dtype=default_float_dtype).div(255)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,18 @@
+{"time":"2026-03-03T20:47:37.671111813+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-03T20:47:37.671133912+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260303_204737-s2lfzjso/logs/debug-core.log"}
+{"time":"2026-03-03T20:47:38.06129561+01:00","level":"INFO","msg":"created new stream","id":"s2lfzjso"}
+{"time":"2026-03-03T20:47:38.061327967+01:00","level":"INFO","msg":"stream: started","id":"s2lfzjso"}
+{"time":"2026-03-03T20:47:38.061377433+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"s2lfzjso"}
+{"time":"2026-03-03T20:47:38.061379969+01:00","level":"INFO","msg":"sender: started","stream_id":"s2lfzjso"}
+{"time":"2026-03-03T20:47:38.061404902+01:00","level":"INFO","msg":"handler: started","stream_id":"s2lfzjso"}
+{"time":"2026-03-03T20:47:38.672778978+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-04T01:03:39.257409742+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20Resnet%20depth%20comparison/s2lfzjso/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-03-04T01:45:10.449194094+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-04T01:45:10.449743787+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-04T01:45:11.32042805+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T01:45:11.441255524+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 79-79, summary, console lines 81-82","runtime_seconds":0.120725546}],"total_operations":1}}
+{"time":"2026-03-04T01:45:13.144728531+01:00","level":"INFO","msg":"stream: closing","id":"s2lfzjso"}
+{"time":"2026-03-04T01:45:13.144768032+01:00","level":"INFO","msg":"handler: closed","stream_id":"s2lfzjso"}
+{"time":"2026-03-04T01:45:13.144777474+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s2lfzjso"}
+{"time":"2026-03-04T01:45:13.14478532+01:00","level":"INFO","msg":"sender: closed","stream_id":"s2lfzjso"}
+{"time":"2026-03-04T01:45:13.144823903+01:00","level":"INFO","msg":"stream: closed","id":"s2lfzjso"}

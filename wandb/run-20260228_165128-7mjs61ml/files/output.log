@@ -1,0 +1,15 @@
+Evaluate before fine-tuning...
+Accuracy before fine-tuning: 11.39%
+Epoch 1/10 - Loss: 1.0292 - Train Acc: 71.01% - Test Acc: 75.62%
+Epoch 2/10 - Loss: 0.7439 - Train Acc: 74.26% - Test Acc: 81.22%
+Epoch 3/10 - Loss: 0.6549 - Train Acc: 77.26% - Test Acc: 82.95%
+Epoch 4/10 - Loss: 0.5873 - Train Acc: 80.08% - Test Acc: 85.52%
+Epoch 5/10 - Loss: 0.5419 - Train Acc: 82.56% - Test Acc: 86.39%
+Epoch 6/10 - Loss: 0.4923 - Train Acc: 84.08% - Test Acc: 87.96%
+Epoch 7/10 - Loss: 0.4456 - Train Acc: 85.59% - Test Acc: 88.53%
+Epoch 8/10 - Loss: 0.4096 - Train Acc: 87.14% - Test Acc: 89.23%
+Epoch 9/10 - Loss: 0.3798 - Train Acc: 88.17% - Test Acc: 90.27%
+Epoch 10/10 - Loss: 0.3621 - Train Acc: 88.69% - Test Acc: 90.54%
+
+Final accuracy after fine-tuning: 90.54%
+Saved to checkpoints/ResNet18_structured_90.pth

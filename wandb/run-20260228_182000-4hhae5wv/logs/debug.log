@@ -1,0 +1,29 @@
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_setup.py:_flush():68] Configure stats pid to 1989085
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_setup.py:_flush():68] Loading settings from /homes/a23scher/.config/wandb/settings
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_setup.py:_flush():68] Loading settings from /users/local/efficient_deep_learning/wandb/settings
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_init.py:_log_setup():528] Logging user logs to /users/local/efficient_deep_learning/wandb/run-20260228_182000-4hhae5wv/logs/debug.log
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_init.py:_log_setup():529] Logging internal logs to /users/local/efficient_deep_learning/wandb/run-20260228_182000-4hhae5wv/logs/debug-internal.log
+2026-02-28 18:20:00,940 INFO    MainThread:1989085 [wandb_init.py:init():644] calling init triggers
+2026-02-28 18:20:00,941 INFO    MainThread:1989085 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'architecture': 'ResNet18 struct30 + unstruct70', 'dataset': 'CIFAR-10', 'epochs': 10, 'batch_size': 64, 'structured_ratio': 0.3, 'unstructured_ratio': 0.7, 'params_orig': 11173962, 'params_after_struct': 7871178, 'acc_orig': 94.64, 'acc_after_struct': 92.13, 'acc_after_unstruct': 81.19}
+2026-02-28 18:20:00,941 INFO    MainThread:1989085 [wandb_init.py:init():680] starting backend
+2026-02-28 18:20:00,941 INFO    MainThread:1989085 [wandb_init.py:init():684] sending inform_init request
+2026-02-28 18:20:01,007 INFO    MainThread:1989085 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2026-02-28 18:20:01,007 INFO    MainThread:1989085 [wandb_init.py:init():697] backend started and connected
+2026-02-28 18:20:01,009 INFO    MainThread:1989085 [wandb_init.py:init():790] updated telemetry
+2026-02-28 18:20:01,009 INFO    MainThread:1989085 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2026-02-28 18:20:01,554 INFO    MainThread:1989085 [wandb_init.py:init():874] starting run threads in backend
+2026-02-28 18:20:02,032 INFO    MainThread:1989085 [wandb_run.py:_console_start():2374] atexit reg
+2026-02-28 18:20:02,032 INFO    MainThread:1989085 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2026-02-28 18:20:02,032 INFO    MainThread:1989085 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2026-02-28 18:20:02,032 INFO    MainThread:1989085 [wandb_run.py:_redirect():2314] Redirects installed.
+2026-02-28 18:20:02,033 INFO    MainThread:1989085 [wandb_init.py:init():916] run started, returning control to user process
+2026-02-28 18:49:47,003 INFO    MainThread:1989085 [wandb_run.py:_finish():2100] finishing run scherpereelant-imt-atlantique/efficient deep learning Resnet18/4hhae5wv
+2026-02-28 18:49:47,004 INFO    MainThread:1989085 [wandb_run.py:_atexit_cleanup():2339] got exitcode: 0
+2026-02-28 18:49:47,004 INFO    MainThread:1989085 [wandb_run.py:_restore():2321] restore
+2026-02-28 18:49:47,004 INFO    MainThread:1989085 [wandb_run.py:_restore():2327] restore done
+2026-02-28 18:49:49,048 INFO    MainThread:1989085 [wandb_run.py:_footer_history_summary_info():3892] rendering history
+2026-02-28 18:49:49,048 INFO    MainThread:1989085 [wandb_run.py:_footer_history_summary_info():3924] rendering summary
+2026-02-28 18:49:49,196 INFO    MainThread:1989085 [wandb_run.py:_footer_sync_info():3853] logging synced files

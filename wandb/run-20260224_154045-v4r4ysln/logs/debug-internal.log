@@ -1,0 +1,16 @@
+{"time":"2026-02-24T15:40:45.950230897+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-24T15:40:45.950249564+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260224_154045-v4r4ysln/logs/debug-core.log"}
+{"time":"2026-02-24T15:40:46.053379931+01:00","level":"INFO","msg":"created new stream","id":"v4r4ysln"}
+{"time":"2026-02-24T15:40:46.053419272+01:00","level":"INFO","msg":"stream: started","id":"v4r4ysln"}
+{"time":"2026-02-24T15:40:46.053494768+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"v4r4ysln"}
+{"time":"2026-02-24T15:40:46.053620588+01:00","level":"INFO","msg":"handler: started","stream_id":"v4r4ysln"}
+{"time":"2026-02-24T15:40:46.053634117+01:00","level":"INFO","msg":"sender: started","stream_id":"v4r4ysln"}
+{"time":"2026-02-24T15:40:46.514366451+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-24T15:42:18.157863515+01:00","level":"INFO","msg":"stream: closing","id":"v4r4ysln"}
+{"time":"2026-02-24T15:42:18.157905771+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-24T15:42:18.158631254+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-24T15:42:18.826092001+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T15:42:19.309586577+01:00","level":"INFO","msg":"handler: closed","stream_id":"v4r4ysln"}
+{"time":"2026-02-24T15:42:19.309608907+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v4r4ysln"}
+{"time":"2026-02-24T15:42:19.30963411+01:00","level":"INFO","msg":"sender: closed","stream_id":"v4r4ysln"}
+{"time":"2026-02-24T15:42:19.309940313+01:00","level":"INFO","msg":"stream: closed","id":"v4r4ysln"}

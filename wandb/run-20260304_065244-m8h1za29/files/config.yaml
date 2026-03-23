@@ -1,0 +1,36 @@
+_wandb:
+    value:
+        cli_version: 0.19.1
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 1
+                - 41
+                - 55
+            "3":
+                - 16
+                - 23
+                - 55
+            "4": 3.12.3
+            "5": 0.19.1
+            "8":
+                - 5
+            "12": 0.19.1
+            "13": linux-x86_64
+architecture:
+    value: ResNet18 - Mixup - cos
+batch_size:
+    value: 64
+dataset:
+    value: CIFAR-10
+epochs:
+    value: 80
+learning_rate:
+    value: 0.001
+optimizer:
+    value: Adam

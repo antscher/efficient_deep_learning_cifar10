@@ -1,0 +1,17 @@
+{"time":"2026-02-24T15:56:49.401216451+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-24T15:56:49.401235679+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260224_155649-xw310auz/logs/debug-core.log"}
+{"time":"2026-02-24T15:56:49.503782729+01:00","level":"INFO","msg":"created new stream","id":"xw310auz"}
+{"time":"2026-02-24T15:56:49.503818106+01:00","level":"INFO","msg":"stream: started","id":"xw310auz"}
+{"time":"2026-02-24T15:56:49.503907955+01:00","level":"INFO","msg":"sender: started","stream_id":"xw310auz"}
+{"time":"2026-02-24T15:56:49.50393551+01:00","level":"INFO","msg":"handler: started","stream_id":"xw310auz"}
+{"time":"2026-02-24T15:56:49.503990906+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xw310auz"}
+{"time":"2026-02-24T15:56:49.797208857+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-24T17:43:32.133714507+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-24T17:43:32.13408754+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-24T17:43:32.932809575+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T17:43:33.134139582+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 54-54, summary, console lines 55-56","runtime_seconds":0.201217633}],"total_operations":1}}
+{"time":"2026-02-24T17:43:34.188247341+01:00","level":"INFO","msg":"stream: closing","id":"xw310auz"}
+{"time":"2026-02-24T17:43:34.18828934+01:00","level":"INFO","msg":"handler: closed","stream_id":"xw310auz"}
+{"time":"2026-02-24T17:43:34.188297965+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xw310auz"}
+{"time":"2026-02-24T17:43:34.18831758+01:00","level":"INFO","msg":"sender: closed","stream_id":"xw310auz"}
+{"time":"2026-02-24T17:43:34.188368538+01:00","level":"INFO","msg":"stream: closed","id":"xw310auz"}

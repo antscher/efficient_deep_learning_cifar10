@@ -1,0 +1,56 @@
+
+======================================================================
+[STEP 1] Structured Pruning
+======================================================================
+
+── Structured pruning (ratio=0.7) ──
+  Internal channels: 64→19 (removed 45, 70.3%)
+  Internal channels: 64→19 (removed 45, 70.3%)
+  Internal channels: 128→38 (removed 90, 70.3%)
+  Internal channels: 128→38 (removed 90, 70.3%)
+  Internal channels: 256→77 (removed 179, 69.9%)
+  Internal channels: 256→77 (removed 179, 69.9%)
+  Internal channels: 512→154 (removed 358, 69.9%)
+  Internal channels: 512→154 (removed 358, 69.9%)
+
+After structured pruning:
+  Params: 575,178 (2.51x)
+  Accuracy: 34.34%
+
+======================================================================
+[STEP 2] Unstructured Pruning
+======================================================================
+
+── Unstructured pruning (ratio=0.3) ──
+  Sparsity: 30.0%  (169,250 / 564,160 weights zeroed)
+
+After unstructured pruning:
+  Accuracy: 31.45%
+
+======================================================================
+[STEP 3] Fine-tune after Pruning with Distillation (0 epochs)
+======================================================================
+
+Training with distillation (T=4.0, α=0.8)...
+
+Accuracy after pruning fine-tune: 31.45%
+
+======================================================================
+[STEP 4] Apply 8-bit Fake Quantization
+======================================================================
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 617, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 519, in pipeline_pruning_quantization_distill
+    student_model_quant = apply_fake_quantization(
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'apply_fake_quantization' is not defined. Did you mean: 'apply_fake_quantization_simple'?
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 617, in <module>
+    results = pipeline_pruning_quantization_distill(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD7_distillation_pruning_quantization.py", line 519, in pipeline_pruning_quantization_distill
+    student_model_quant = apply_fake_quantization(
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'apply_fake_quantization' is not defined. Did you mean: 'apply_fake_quantization_simple'?

@@ -1,0 +1,16 @@
+{"time":"2026-03-17T18:18:06.719032347+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-17T18:18:06.71905532+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260317_181806-hvaunvoz/logs/debug-core.log"}
+{"time":"2026-03-17T18:18:06.822174778+01:00","level":"INFO","msg":"created new stream","id":"hvaunvoz"}
+{"time":"2026-03-17T18:18:06.822216611+01:00","level":"INFO","msg":"stream: started","id":"hvaunvoz"}
+{"time":"2026-03-17T18:18:06.822361762+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hvaunvoz"}
+{"time":"2026-03-17T18:18:06.822390839+01:00","level":"INFO","msg":"sender: started","stream_id":"hvaunvoz"}
+{"time":"2026-03-17T18:18:06.822358989+01:00","level":"INFO","msg":"handler: started","stream_id":"hvaunvoz"}
+{"time":"2026-03-17T18:18:07.491082133+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-17T18:19:04.738510883+01:00","level":"INFO","msg":"stream: closing","id":"hvaunvoz"}
+{"time":"2026-03-17T18:19:04.738676916+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-17T18:19:04.739503584+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-17T18:19:05.653159059+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-17T18:19:12.753813951+01:00","level":"INFO","msg":"handler: closed","stream_id":"hvaunvoz"}
+{"time":"2026-03-17T18:19:12.753846612+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hvaunvoz"}
+{"time":"2026-03-17T18:19:12.753910323+01:00","level":"INFO","msg":"sender: closed","stream_id":"hvaunvoz"}
+{"time":"2026-03-17T18:19:12.753918079+01:00","level":"INFO","msg":"stream: closed","id":"hvaunvoz"}

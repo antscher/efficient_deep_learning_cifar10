@@ -1,0 +1,104 @@
+
+======================================================================
+[STEP 1] Structured Pruning
+======================================================================
+
+── Structured pruning (ratio=0.8) ──
+  Internal channels: 64→13 (removed 51, 79.7%)
+  Internal channels: 64→13 (removed 51, 79.7%)
+  Internal channels: 128→26 (removed 102, 79.7%)
+  Internal channels: 128→26 (removed 102, 79.7%)
+  Internal channels: 256→51 (removed 205, 80.1%)
+  Internal channels: 256→51 (removed 205, 80.1%)
+  Internal channels: 512→102 (removed 410, 80.1%)
+
+After structured pruning:
+  Params: 336,860 (2.70x)
+  Accuracy: 10.00%
+
+======================================================================
+[STEP 2] Unstructured Pruning
+======================================================================
+
+── Unstructured pruning (ratio=0.3) ──
+  Sparsity: 30.0%  (98,721 / 329,066 weights zeroed)
+
+After unstructured pruning:
+  Accuracy: 10.06%
+
+======================================================================
+[STEP 3] Fine-tune after Pruning with Distillation (25 epochs)
+======================================================================
+
+Training with distillation (T=4.0, α=0.8)...
+  [prune_distill_ft 1/25] Loss: 0.6281 (CE: 0.9546, KD: 0.5465) - Train: 76.90% - Test: 85.06%
+  [prune_distill_ft 2/25] Loss: 0.4818 (CE: 0.7722, KD: 0.4091) - Train: 79.27% - Test: 86.49%
+  [prune_distill_ft 3/25] Loss: 0.4492 (CE: 0.7305, KD: 0.3788) - Train: 80.70% - Test: 87.40%
+  [prune_distill_ft 4/25] Loss: 0.4259 (CE: 0.6990, KD: 0.3576) - Train: 80.72% - Test: 87.84%
+  [prune_distill_ft 5/25] Loss: 0.4149 (CE: 0.6870, KD: 0.3469) - Train: 81.71% - Test: 88.22%
+  [prune_distill_ft 6/25] Loss: 0.4026 (CE: 0.6690, KD: 0.3360) - Train: 82.36% - Test: 88.32%
+  [prune_distill_ft 7/25] Loss: 0.3967 (CE: 0.6650, KD: 0.3297) - Train: 82.72% - Test: 88.59%
+  [prune_distill_ft 8/25] Loss: 0.3907 (CE: 0.6556, KD: 0.3245) - Train: 82.96% - Test: 88.80%
+  [prune_distill_ft 9/25] Loss: 0.3828 (CE: 0.6417, KD: 0.3181) - Train: 83.05% - Test: 88.67%
+  [prune_distill_ft 10/25] Loss: 0.3761 (CE: 0.6343, KD: 0.3115) - Train: 83.07% - Test: 89.08%
+  [prune_distill_ft 11/25] Loss: 0.3727 (CE: 0.6301, KD: 0.3084) - Train: 83.49% - Test: 89.65%
+  [prune_distill_ft 12/25] Loss: 0.3686 (CE: 0.6256, KD: 0.3043) - Train: 83.66% - Test: 89.19%
+  [prune_distill_ft 13/25] Loss: 0.3671 (CE: 0.6253, KD: 0.3026) - Train: 83.49% - Test: 89.47%
+  [prune_distill_ft 14/25] Loss: 0.3639 (CE: 0.6181, KD: 0.3003) - Train: 84.15% - Test: 89.39%
+  [prune_distill_ft 15/25] Loss: 0.3606 (CE: 0.6162, KD: 0.2967) - Train: 84.16% - Test: 89.90%
+  [prune_distill_ft 16/25] Loss: 0.3591 (CE: 0.6110, KD: 0.2961) - Train: 83.91% - Test: 89.85%
+  [prune_distill_ft 17/25] Loss: 0.3588 (CE: 0.6146, KD: 0.2949) - Train: 84.24% - Test: 89.78%
+  [prune_distill_ft 18/25] Loss: 0.3564 (CE: 0.6098, KD: 0.2930) - Train: 84.15% - Test: 89.99%
+  [prune_distill_ft 19/25] Loss: 0.3544 (CE: 0.6065, KD: 0.2913) - Train: 84.20% - Test: 89.90%
+  [prune_distill_ft 20/25] Loss: 0.3543 (CE: 0.6092, KD: 0.2906) - Train: 84.46% - Test: 90.04%
+  [prune_distill_ft 21/25] Loss: 0.3538 (CE: 0.6039, KD: 0.2913) - Train: 84.77% - Test: 89.95%
+  [prune_distill_ft 22/25] Loss: 0.3509 (CE: 0.6021, KD: 0.2881) - Train: 84.32% - Test: 89.97%
+  [prune_distill_ft 23/25] Loss: 0.3506 (CE: 0.6008, KD: 0.2880) - Train: 84.35% - Test: 89.83%
+  [prune_distill_ft 24/25] Loss: 0.3505 (CE: 0.6020, KD: 0.2877) - Train: 84.44% - Test: 89.78%
+  [prune_distill_ft 25/25] Loss: 0.3510 (CE: 0.6013, KD: 0.2884) - Train: 84.33% - Test: 90.01%
+
+Accuracy after pruning fine-tune: 90.01%
+
+======================================================================
+[STEP 4] Apply 8-bit Fake Quantization
+======================================================================
+/opt/img/effdl-venv/lib/python3.12/site-packages/torch/ao/quantization/observer.py:229: UserWarning: Please use quant_min and quant_max to specify the range for observers.                     reduce_range will be deprecated in a future release of PyTorch.
+  warnings.warn(
+
+Accuracy after quantization (before fine-tune): 89.75%
+
+======================================================================
+[STEP 5] Fine-tune after Quantization with Distillation (20 epochs)
+======================================================================
+
+Training with distillation (T=4.0, α=0.8)...
+  [quant_distill_ft 1/20] Loss: 0.3577 (CE: 0.6113, KD: 0.2942) - Train: 84.42% - Test: 89.82%
+  [quant_distill_ft 2/20] Loss: 0.3591 (CE: 0.6135, KD: 0.2955) - Train: 84.33% - Test: 89.83%
+  [quant_distill_ft 3/20] Loss: 0.3528 (CE: 0.6050, KD: 0.2898) - Train: 84.59% - Test: 89.67%
+  [quant_distill_ft 4/20] Loss: 0.3541 (CE: 0.6056, KD: 0.2912) - Train: 84.47% - Test: 89.86%
+  [quant_distill_ft 5/20] Loss: 0.3497 (CE: 0.5981, KD: 0.2875) - Train: 84.35% - Test: 90.17%
+  [quant_distill_ft 6/20] Loss: 0.3480 (CE: 0.6008, KD: 0.2848) - Train: 84.76% - Test: 90.13%
+  [quant_distill_ft 7/20] Loss: 0.3457 (CE: 0.5933, KD: 0.2838) - Train: 85.00% - Test: 90.16%
+  [quant_distill_ft 8/20] Loss: 0.3442 (CE: 0.5931, KD: 0.2820) - Train: 84.82% - Test: 89.98%
+  [quant_distill_ft 9/20] Loss: 0.3419 (CE: 0.5902, KD: 0.2798) - Train: 84.84% - Test: 90.23%
+  [quant_distill_ft 10/20] Loss: 0.3427 (CE: 0.5917, KD: 0.2805) - Train: 85.23% - Test: 90.15%
+  [quant_distill_ft 11/20] Loss: 0.3379 (CE: 0.5825, KD: 0.2768) - Train: 85.43% - Test: 90.41%
+  [quant_distill_ft 12/20] Loss: 0.3384 (CE: 0.5845, KD: 0.2768) - Train: 85.05% - Test: 90.45%
+  [quant_distill_ft 13/20] Loss: 0.3357 (CE: 0.5814, KD: 0.2743) - Train: 85.22% - Test: 90.15%
+  [quant_distill_ft 14/20] Loss: 0.3368 (CE: 0.5837, KD: 0.2750) - Train: 85.40% - Test: 90.63%
+  [quant_distill_ft 15/20] Loss: 0.3359 (CE: 0.5830, KD: 0.2741) - Train: 85.59% - Test: 90.51%
+  [quant_distill_ft 16/20] Loss: 0.3329 (CE: 0.5781, KD: 0.2716) - Train: 85.49% - Test: 90.49%
+  [quant_distill_ft 17/20] Loss: 0.3329 (CE: 0.5757, KD: 0.2722) - Train: 85.59% - Test: 90.69%
+  [quant_distill_ft 18/20] Loss: 0.3338 (CE: 0.5759, KD: 0.2733) - Train: 85.40% - Test: 90.41%
+  [quant_distill_ft 19/20] Loss: 0.3320 (CE: 0.5737, KD: 0.2715) - Train: 85.38% - Test: 90.64%
+  [quant_distill_ft 20/20] Loss: 0.3341 (CE: 0.5779, KD: 0.2731) - Train: 85.46% - Test: 90.20%
+
+======================================================================
+FINAL RESULTS
+======================================================================
+Final Accuracy: 90.42%
+Final Params: 336,860
+Total Compression: 2.70x
+Accuracy Retention: 96.9%
+vs Teacher: 90.42% vs 94.70%
+======================================================================

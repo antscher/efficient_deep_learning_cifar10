@@ -1,0 +1,86 @@
+2026-03-03 15:49:28,809 INFO    MainThread:3637547 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_setup.py:_flush():68] Configure stats pid to 3637547
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_setup.py:_flush():68] Loading settings from /homes/m22jocal/.config/wandb/settings
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_setup.py:_flush():68] Loading settings from /users/local/efficient_deep_learning/wandb/settings
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_init.py:_log_setup():528] Logging user logs to /users/local/efficient_deep_learning/wandb/run-20260303_154928-emnu0fjs/logs/debug.log
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_init.py:_log_setup():529] Logging internal logs to /users/local/efficient_deep_learning/wandb/run-20260303_154928-emnu0fjs/logs/debug-internal.log
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_init.py:init():644] calling init triggers
+2026-03-03 15:49:28,810 INFO    MainThread:3637547 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'learning_rate': (ResNet(
+  (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layer1): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+  )
+  (layer2): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential(
+        (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+  )
+  (layer3): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential(
+        (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+  )
+  (layer4): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+  )
+  (linear): Linear(in_features=512, out_features=10, bias=True)
+), 'SGD', 0.1), 'architecture': 'tuple - Mixup - cos', 'dataset': 'CIFAR-10', 'epochs': 80, 'batch_size': 64, 'optimizer': 'tuple'}
+2026-03-03 15:49:28,811 INFO    MainThread:3637547 [wandb_init.py:init():680] starting backend
+2026-03-03 15:49:28,811 INFO    MainThread:3637547 [wandb_init.py:init():684] sending inform_init request
+2026-03-03 15:49:28,819 INFO    MainThread:3637547 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2026-03-03 15:49:28,819 INFO    MainThread:3637547 [wandb_init.py:init():697] backend started and connected
+2026-03-03 15:49:28,821 INFO    MainThread:3637547 [wandb_init.py:init():790] updated telemetry
+2026-03-03 15:49:28,822 INFO    MainThread:3637547 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2026-03-03 15:49:29,375 INFO    MainThread:3637547 [wandb_init.py:init():874] starting run threads in backend
+2026-03-03 15:49:29,836 INFO    MainThread:3637547 [wandb_run.py:_console_start():2374] atexit reg
+2026-03-03 15:49:29,836 INFO    MainThread:3637547 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2026-03-03 15:49:29,836 INFO    MainThread:3637547 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2026-03-03 15:49:29,836 INFO    MainThread:3637547 [wandb_run.py:_redirect():2314] Redirects installed.
+2026-03-03 15:49:29,839 INFO    MainThread:3637547 [wandb_init.py:init():916] run started, returning control to user process
+2026-03-03 15:49:29,874 WARNING MsgRouterThr:3637547 [router.py:message_loop():75] message_loop has been closed

@@ -1,0 +1,18 @@
+{"time":"2026-03-04T13:40:31.948902771+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-04T13:40:31.948922909+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260304_134031-cnqhsb2j/logs/debug-core.log"}
+{"time":"2026-03-04T13:40:32.070155439+01:00","level":"INFO","msg":"created new stream","id":"cnqhsb2j"}
+{"time":"2026-03-04T13:40:32.070185583+01:00","level":"INFO","msg":"stream: started","id":"cnqhsb2j"}
+{"time":"2026-03-04T13:40:32.070318716+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cnqhsb2j"}
+{"time":"2026-03-04T13:40:32.070392251+01:00","level":"INFO","msg":"handler: started","stream_id":"cnqhsb2j"}
+{"time":"2026-03-04T13:40:32.070405243+01:00","level":"INFO","msg":"sender: started","stream_id":"cnqhsb2j"}
+{"time":"2026-03-04T13:40:33.239479744+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-04T18:55:18.93960673+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2026-03-04T18:56:10.56580161+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-04T18:56:10.566288709+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-04T18:56:11.566233764+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":2.492113279}],"total_operations":1}}
+{"time":"2026-03-04T18:56:38.048557758+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-04T18:56:45.365536085+01:00","level":"INFO","msg":"stream: closing","id":"cnqhsb2j"}
+{"time":"2026-03-04T18:56:45.365567558+01:00","level":"INFO","msg":"handler: closed","stream_id":"cnqhsb2j"}
+{"time":"2026-03-04T18:56:45.365583368+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cnqhsb2j"}
+{"time":"2026-03-04T18:56:45.365610406+01:00","level":"INFO","msg":"sender: closed","stream_id":"cnqhsb2j"}
+{"time":"2026-03-04T18:56:45.36563381+01:00","level":"INFO","msg":"stream: closed","id":"cnqhsb2j"}

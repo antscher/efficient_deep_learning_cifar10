@@ -1,0 +1,110 @@
+Evaluate prunung before fine-tuning...
+Accuracy before pruning: 10.00%
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 201, in <module>
+    apply_global_unstructured_pruning(model, prune_ratio)
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 168, in apply_global_unstructured_pruning
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 95, in train_model
+    for x, y in trainloader:
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 1276, in forward
+    img = F.adjust_contrast(img, contrast_factor)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 907, in adjust_contrast
+    return F_pil.adjust_contrast(img, contrast_factor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/_functional_pil.py", line 82, in adjust_contrast
+    enhancer = ImageEnhance.Contrast(img)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageEnhance.py", line 68, in __init__
+    mean = int(ImageStat.Stat(image.convert("L")).mean[0] + 0.5)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 47, in __getattr__
+    v = getattr(self, "_get" + id)()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 96, in _getmean
+    return [self.sum[i] / self.count[i] for i in self.bands]
+            ^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 47, in __getattr__
+    v = getattr(self, "_get" + id)()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 79, in _getsum
+    layer_sum += j * self.h[i + j]
+    ^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 201, in <module>
+    apply_global_unstructured_pruning(model, prune_ratio)
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 168, in apply_global_unstructured_pruning
+    model = train_model(model, epochs=run.config["epochs"], run=run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/local/efficient_deep_learning/TD4_pruning_unstructured.py", line 95, in train_model
+    for x, y in trainloader:
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+          ^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/transforms.py", line 1276, in forward
+    img = F.adjust_contrast(img, contrast_factor)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/functional.py", line 907, in adjust_contrast
+    return F_pil.adjust_contrast(img, contrast_factor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/img/effdl-venv/lib/python3.12/site-packages/torchvision/transforms/_functional_pil.py", line 82, in adjust_contrast
+    enhancer = ImageEnhance.Contrast(img)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageEnhance.py", line 68, in __init__
+    mean = int(ImageStat.Stat(image.convert("L")).mean[0] + 0.5)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 47, in __getattr__
+    v = getattr(self, "_get" + id)()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 96, in _getmean
+    return [self.sum[i] / self.count[i] for i in self.bands]
+            ^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 47, in __getattr__
+    v = getattr(self, "_get" + id)()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/PIL/ImageStat.py", line 79, in _getsum
+    layer_sum += j * self.h[i + j]
+    ^^^^^^^^^
+KeyboardInterrupt

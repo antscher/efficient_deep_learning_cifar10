@@ -1,0 +1,1 @@
+{"teacher/test_acc":94.64,"student/train_acc":99.54,"_wandb":{"runtime":10925},"_step":60,"epoch":60,"_timestamp":1.77316581560542e+09,"student/test_acc":93.94,"student/params_million":4.903242,"distill/loss_ce":0.15182603085818497,"lr":0,"distill/loss_total":0.10686635427043566,"distill/loss_kd":0.0875979204902716,"student/final_test_acc":93.94,"_runtime":10922.595778982}

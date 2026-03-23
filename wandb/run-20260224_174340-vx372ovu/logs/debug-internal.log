@@ -1,0 +1,17 @@
+{"time":"2026-02-24T17:43:40.946547489+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-24T17:43:40.94656726+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260224_174340-vx372ovu/logs/debug-core.log"}
+{"time":"2026-02-24T17:43:41.049284357+01:00","level":"INFO","msg":"created new stream","id":"vx372ovu"}
+{"time":"2026-02-24T17:43:41.049313905+01:00","level":"INFO","msg":"stream: started","id":"vx372ovu"}
+{"time":"2026-02-24T17:43:41.049338284+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vx372ovu"}
+{"time":"2026-02-24T17:43:41.049523546+01:00","level":"INFO","msg":"sender: started","stream_id":"vx372ovu"}
+{"time":"2026-02-24T17:43:41.049547002+01:00","level":"INFO","msg":"handler: started","stream_id":"vx372ovu"}
+{"time":"2026-02-24T17:43:41.492603293+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-24T20:42:19.625615658+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-24T20:42:19.626083154+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-24T20:42:20.626245067+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.299860679,"progress":"658B/658B"}],"total_operations":1}}
+{"time":"2026-02-24T20:42:20.645441637+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T20:42:22.360529794+01:00","level":"INFO","msg":"stream: closing","id":"vx372ovu"}
+{"time":"2026-02-24T20:42:22.360561055+01:00","level":"INFO","msg":"handler: closed","stream_id":"vx372ovu"}
+{"time":"2026-02-24T20:42:22.360568981+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vx372ovu"}
+{"time":"2026-02-24T20:42:22.36057558+01:00","level":"INFO","msg":"sender: closed","stream_id":"vx372ovu"}
+{"time":"2026-02-24T20:42:22.360624766+01:00","level":"INFO","msg":"stream: closed","id":"vx372ovu"}

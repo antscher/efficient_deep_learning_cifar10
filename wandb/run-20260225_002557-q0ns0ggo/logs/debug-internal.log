@@ -1,0 +1,18 @@
+{"time":"2026-02-25T00:25:57.947124948+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-02-25T00:25:57.947155061+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260225_002557-q0ns0ggo/logs/debug-core.log"}
+{"time":"2026-02-25T00:25:58.134462846+01:00","level":"INFO","msg":"created new stream","id":"q0ns0ggo"}
+{"time":"2026-02-25T00:25:58.134502738+01:00","level":"INFO","msg":"stream: started","id":"q0ns0ggo"}
+{"time":"2026-02-25T00:25:58.134720963+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"q0ns0ggo"}
+{"time":"2026-02-25T00:25:58.134836281+01:00","level":"INFO","msg":"sender: started","stream_id":"q0ns0ggo"}
+{"time":"2026-02-25T00:25:58.134855005+01:00","level":"INFO","msg":"handler: started","stream_id":"q0ns0ggo"}
+{"time":"2026-02-25T00:25:59.001648014+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-02-25T01:59:44.646275903+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20Resnet18/q0ns0ggo/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-02-25T02:12:15.782573534+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-02-25T02:12:15.782993442+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-02-25T02:12:16.782883313+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.123571565,"progress":"649B/649B"},{"desc":"uploading output.log","runtime_seconds":0.123563426,"progress":"3.6KB/3.6KB"}],"total_operations":2}}
+{"time":"2026-02-25T02:12:16.95079959+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-25T02:12:18.796460072+01:00","level":"INFO","msg":"stream: closing","id":"q0ns0ggo"}
+{"time":"2026-02-25T02:12:18.796484776+01:00","level":"INFO","msg":"handler: closed","stream_id":"q0ns0ggo"}
+{"time":"2026-02-25T02:12:18.796492629+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"q0ns0ggo"}
+{"time":"2026-02-25T02:12:18.796545853+01:00","level":"INFO","msg":"sender: closed","stream_id":"q0ns0ggo"}
+{"time":"2026-02-25T02:12:18.796551757+01:00","level":"INFO","msg":"stream: closed","id":"q0ns0ggo"}

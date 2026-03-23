@@ -1,0 +1,16 @@
+{"time":"2026-03-17T18:23:40.442764766+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-17T18:23:40.442798376+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260317_182340-5440p2zn/logs/debug-core.log"}
+{"time":"2026-03-17T18:23:40.545953448+01:00","level":"INFO","msg":"created new stream","id":"5440p2zn"}
+{"time":"2026-03-17T18:23:40.546008856+01:00","level":"INFO","msg":"stream: started","id":"5440p2zn"}
+{"time":"2026-03-17T18:23:40.54623019+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5440p2zn"}
+{"time":"2026-03-17T18:23:40.546419505+01:00","level":"INFO","msg":"handler: started","stream_id":"5440p2zn"}
+{"time":"2026-03-17T18:23:40.546436452+01:00","level":"INFO","msg":"sender: started","stream_id":"5440p2zn"}
+{"time":"2026-03-17T18:23:41.560921704+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-17T18:24:04.425739184+01:00","level":"INFO","msg":"stream: closing","id":"5440p2zn"}
+{"time":"2026-03-17T18:24:04.425784691+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-17T18:24:04.426270474+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-17T18:24:05.310147936+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-17T18:24:06.76641438+01:00","level":"INFO","msg":"handler: closed","stream_id":"5440p2zn"}
+{"time":"2026-03-17T18:24:06.766447711+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5440p2zn"}
+{"time":"2026-03-17T18:24:06.766484231+01:00","level":"INFO","msg":"sender: closed","stream_id":"5440p2zn"}
+{"time":"2026-03-17T18:24:06.766506853+01:00","level":"INFO","msg":"stream: closed","id":"5440p2zn"}

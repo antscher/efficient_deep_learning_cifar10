@@ -1,0 +1,22 @@
+{"time":"2026-03-20T20:10:10.061382709+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2026-03-20T20:10:10.061402473+01:00","level":"INFO","msg":"created symlink","path":"/users/local/efficient_deep_learning/wandb/run-20260320_201009-jmztnn4s/logs/debug-core.log"}
+{"time":"2026-03-20T20:10:10.16389138+01:00","level":"INFO","msg":"created new stream","id":"jmztnn4s"}
+{"time":"2026-03-20T20:10:10.163937681+01:00","level":"INFO","msg":"stream: started","id":"jmztnn4s"}
+{"time":"2026-03-20T20:10:10.164309563+01:00","level":"INFO","msg":"handler: started","stream_id":"jmztnn4s"}
+{"time":"2026-03-20T20:10:10.164333113+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jmztnn4s"}
+{"time":"2026-03-20T20:10:10.164345748+01:00","level":"INFO","msg":"sender: started","stream_id":"jmztnn4s"}
+{"time":"2026-03-20T20:10:11.048790949+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-20T20:20:11.736617193+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20TD7/jmztnn4s/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-03-20T21:49:54.20015787+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20TD7/jmztnn4s/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-20T21:58:35.12389616+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20TD7/jmztnn4s/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-20T22:01:19.406131633+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20TD7/jmztnn4s/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-03-20T22:06:24.640812214+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/scherpereelant-imt-atlantique/efficient%20deep%20learning%20TD7/jmztnn4s/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-03-20T22:25:21.173558689+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-20T22:25:21.173992032+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-20T22:25:22.173855759+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.202925131,"progress":"836B/836B"},{"desc":"uploading output.log","runtime_seconds":0.202917969,"progress":"6.5KB/6.5KB"}],"total_operations":2}}
+{"time":"2026-03-20T22:25:22.178162129+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-20T22:25:23.738742397+01:00","level":"INFO","msg":"stream: closing","id":"jmztnn4s"}
+{"time":"2026-03-20T22:25:23.738781277+01:00","level":"INFO","msg":"handler: closed","stream_id":"jmztnn4s"}
+{"time":"2026-03-20T22:25:23.738790454+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jmztnn4s"}
+{"time":"2026-03-20T22:25:23.73884406+01:00","level":"INFO","msg":"sender: closed","stream_id":"jmztnn4s"}
+{"time":"2026-03-20T22:25:23.738851252+01:00","level":"INFO","msg":"stream: closed","id":"jmztnn4s"}
